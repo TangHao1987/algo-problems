@@ -1,0 +1,33 @@
+Test 1 Passed
+
+Input 1: 
+1
+cheese
+chese
+2
+cheese
+abcdefg
+3
+cheese
+abcdefgij
+-1
+
+Expected Output : 
+Round 1
+You win.
+Round 2
+You chickened out.
+Round 3
+You lose.
+
+Obtained Output : 
+Round 1
+You win.
+Round 2
+You chickened out.
+Round 3
+You lose.
+
+
+________________________________________________________
+
