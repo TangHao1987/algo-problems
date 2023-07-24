@@ -1,0 +1,3 @@
+**/*.exe
+**/code_output*.txt
+**/result.txt
