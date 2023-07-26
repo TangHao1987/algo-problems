@@ -25,11 +25,11 @@ using vpi = V<pi>;
 #define ft front()
 #define bk back()
 
-#define FOR(i,a,b) for (int i = (a); i < (b); ++i)
-#define F0R(i,a) FOR(i,0,a)
-#define ROF(i,a,b) for (int i = (b)-1; i >= (a); --i)
-#define R0F(i,a) ROF(i,0,a)
-#define rep(a) F0R(_,a)
+#define for_(i,a,b) for (int i = (a); i < (b); ++i)
+#define for0(i,a) for_(i,0,a)
+#define rof_(i,a,b) for (int i = (b)-1; i >= (a); --i)
+#define rof0(i,a) rof_(i,0,a)
+#define rep(a) for0(_,a)
 #define each(a,x) for (auto& a: x)
 
 const int MOD = 1e9+7;
